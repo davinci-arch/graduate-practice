@@ -1,0 +1,261 @@
+.container .pricing-wrapper:nth-child(1) {
+    background-color: #1c1e53;
+}
+
+.container .pricing-wrapper:nth-child(5) {
+    background-color: #1c1e53;
+}
+
+header .home-hero-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-top: 128px;
+}
+
+.pricing-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 128px;
+    margin-bottom: 64px;
+    word-wrap: break-word;
+    width: 562px;
+}
+
+.pricing-header .title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+}
+
+.pricing-header .describe {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+}
+
+.plans {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.circle-block {
+    position: absolute;
+    width: 1151px;
+    left: -380px;
+    top: -600px;
+    height: 1151px;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, .06);
+}
+
+.plans .describe-plan-per-block {
+    background-color: #f4f6fc;
+}
+
+.plans .describe-plan-multi-block {
+    background-color: #1c1e53;
+}
+
+.plans .block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-left: 48px;
+    padding-top: 64px;
+    padding-bottom: 62px;
+    width: 358px;
+    height: 619px;
+    overflow: hidden;
+}
+
+.price-block {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.price-block .price {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+}
+
+.price-block .name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.plans .block .describe {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 281px;
+    word-wrap: break-word;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.plans .block .describe .title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #282938
+}
+
+.plans .block:nth-child(2) .describe .title {
+    color: #fff
+}
+
+.plans .block:nth-child(2) .describe .describe-plan {
+    color: #fff
+}
+
+.plans .block .describe .describe-plan {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1c1e53;
+    position: absolute;
+    top: 38px;
+}
+
+.plans .block .price-block .describe-plan-per {
+    color: #2405f2;
+}
+
+.plans .block .price-block .describe-plan-multi {
+    color: #fcd980;
+}
+
+
+.plans .features {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 22px;
+    margin-top: 120px;
+    height: 300px;
+}
+
+.plans .block:nth-child(2) {
+    color: #fff !important
+}
+
+.plans .features .item {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+
+.plans .block:first-child .features .item:nth-child(4) img {
+    filter: invert(10%) sepia(15%) saturate(1346%) hue-rotate(198deg) brightness(99%) contrast(84%);
+}
+
+.plans .block:first-child .features .item:nth-child(5) img {
+    filter: invert(10%) sepia(15%) saturate(1346%) hue-rotate(198deg) brightness(99%) contrast(84%);
+}
+
+.plans .block .getstarted-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 41px;
+    width: 254px;
+    height: 64px;
+    margin-top: 79px;
+    cursor: pointer;
+}
+
+.plans .block .describe-plan-per-btn {
+    color: #f4f6fc;
+    background-color: #282938;
+}
+
+.plans .block .describe-plan-multi-btn {
+    background-color: #fcd980;
+    color: #000;
+}
+
+.faq {
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+    margin: 128px 0;
+}
+
+.faq .faq-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faq .separator {
+    width: 100%;
+    border: 1px solid #ececf1;
+}
+
+.faq .title {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.faq .title a {
+    color: #2405f2;
+}
+
+.faq .faq-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq .faq-item .pos {
+    color: #2405f2;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.faq .faq-item .faq-question-text {
+    display: flex;
+    gap: 59px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.faq-answer {
+    width: 524px;
+    height: 1.5em;
+    margin-left: 84px;
+    margin-right: 90px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-out, visibility 0.3s ease-out;
+    color: #555;
+}
+
+.faq-item.open .faq-answer {
+    opacity: 1;
+    visibility: visible;
+}

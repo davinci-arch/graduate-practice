@@ -1,0 +1,255 @@
+.container .features-wrapper:nth-child(1) {
+    background-color: #1c1e53;
+}
+
+.container .features-wrapper:nth-child(5) {
+    background-color: #f4f6fc;
+}
+
+.container .features-wrapper:nth-child(7) {
+    background-color: rgba(252, 217, 128, .1);
+}
+.container .features-wrapper:nth-child(9) {
+    background-color: #1c1e53;
+}
+
+header .home-hero-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-top: 128px;
+}
+
+.home-hero-info .info {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.home-hero-info .info .title {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+}
+
+header .home-hero-info #home-hero-img {
+    width: 638px;
+    height: 362px;
+}
+
+.home-hero-info .info .pricing-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fcd980;
+    background-color: #fcd980;
+    border-radius: 41px;
+    color: black;
+    height: 64px;
+    width: 230px;
+    cursor: pointer;
+}
+
+.logo-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 89px;
+    margin: 96px 0;
+}
+
+.logo-section .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo-section .info #amount-of-users {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: #282938;
+}
+
+.logo-section .info .title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.logo-section .logos {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefits .title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    margin-bottom: 48px;
+}
+
+.benefits .blocks {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.benefits .blocks .block {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 266px;
+    background-color: #f4f6fc;
+    padding-top: 50px;
+    padding-left: 48px;
+    gap: 16px;
+}
+
+.benefits .blocks .block .title-block {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.benefits .blocks .block .describe {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.best-in-class,
+.free-revisions,
+.support,
+.quick-deliver {
+    display: flex;
+    flex-direction: row;
+    gap: 81px;
+    margin: 128px 0;
+}
+
+.best-in-class .info,
+.free-revisions .info,
+.support .info,
+.quick-deliver .info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.best-in-class .info .title,
+.free-revisions .info .title,
+.support .info .title,
+.quick-deliver .info .title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000;
+}
+
+.best-in-class .info .title-describe,
+.free-revisions .info .title-describe,
+.support .info .title-describe,
+.quick-deliver .info .title-describe {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: #232536;
+}
+
+.best-in-class .info .describe,
+.free-revisions .info .describe,
+.support .info .describe,
+.quick-deliver .info .describe {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+}
+
+.benefit-img {
+    width: 575px;
+    height: 398px;
+}
+
+.faq {
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+    margin: 128px 0;
+}
+
+.faq .faq-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faq .separator {
+    width: 100%;
+    border: 1px solid #ececf1;
+}
+
+.faq .title {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.faq .title a {
+    color: #2405f2;
+}
+
+.faq .faq-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq .faq-item .pos {
+    color: #2405f2;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.faq .faq-item .faq-question-text {
+    display: flex;
+    gap: 59px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.faq-answer {
+    width: 524px;
+    height: 1.5em;
+    margin-left: 84px;
+    margin-right: 90px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-out, visibility 0.3s ease-out;
+    color: #555;
+}
+
+.faq-item.open .faq-answer {
+    opacity: 1;
+    visibility: visible;
+}

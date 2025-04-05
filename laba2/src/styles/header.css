@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    color: white
+}
+
+header .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .navbar .navigation {
+    display: flex;
+    align-items: center;
+    gap: 30px
+}
+
+.navbar .contact-us {
+    border: 2px solid rgba(244, 246, 252, .2);
+    border-radius: 41px;
+    padding: 16px 48px
+}
+
+header .home-hero-info {
+    display: flex;
+    gap: 150px;
+    margin-top: 126px;
+}
+
+header .home-hero-info .info #build {
+    font-size: 54px;
+}
+
+header .home-hero-info #home-hero-img {
+    width: 638px;
+    height: 362px;
+}
