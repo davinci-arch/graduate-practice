@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+html, body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+.custom-date-input::-webkit-calendar-picker-indicator {
+    background-image: url('src/assets/Unfold.png');
+    width: 10px;
+    height: 5px;
+    right: 4%; 
+    top: 0%;
+    position: relative;
+}
